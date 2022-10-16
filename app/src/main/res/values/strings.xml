@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LeagueHelper</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_champions">Champions</string>
+    <string name="text_home">League Helper</string>
+    <string name="text_search">This is search Fragment</string>
+    <string name="text_champions">This is champion Fragment</string>
+
+    //Champion related hhalo
+    <string name="champion_icon">Champion Icon</string>
+    <string name="champion_name">Champion Name</string>
+    <string name="a_description_of_the_champion">A description of the champion</string>
+    <string name="champion_recommended">Recommended champions</string>
+    <string name="champion_random">Random champions</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
