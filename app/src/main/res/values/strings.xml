@@ -7,7 +7,7 @@
     <string name="text_search">This is search Fragment</string>
     <string name="text_champions">This is champion Fragment</string>
 
-    //Champion related hhalo
+    //Champion related
     <string name="champion_icon">Champion Icon</string>
     <string name="champion_name">Champion Name</string>
     <string name="a_description_of_the_champion">A description of the champion</string>
