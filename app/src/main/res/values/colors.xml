@@ -15,4 +15,7 @@
     <color name="blue2">#90E0EF</color>
     <color name="blue1">#CAF0F8</color>
 
+    //Background
+    <color name="background_gray">#444444</color>
+
 </resources>
