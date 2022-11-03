@@ -9,7 +9,11 @@
         android:id="@+id/navigation_home"
         android:name="no.mobilprog.hiof.leaguehelper.HomeFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_patchFragment"
+            app:destination="@id/patchFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_search"
@@ -22,4 +26,14 @@
         android:name="no.mobilprog.hiof.leaguehelper.championscreen.ChampionFragment"
         android:label="@string/title_champions"
         tools:layout="@layout/fragment_champions" />
+    <fragment
+        android:id="@+id/navigation_ultimate"
+        android:name="no.mobilprog.hiof.leaguehelper.UltimateFragment"
+        android:label="fragment_ultimate"
+        tools:layout="@layout/fragment_ultimate" />
+    <fragment
+        android:id="@+id/patchFragment"
+        android:name="no.mobilprog.hiof.leaguehelper.PatchFragment"
+        android:label="fragment_patch"
+        tools:layout="@layout/fragment_patch" />
 </navigation>

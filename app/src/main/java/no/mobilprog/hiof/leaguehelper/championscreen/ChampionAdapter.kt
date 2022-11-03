@@ -25,12 +25,7 @@ class ChampionAdapter(private val items: List<Champion>, private val clickListen
 
     // Called when data is bound to a specific ViewHolder (and item in the list/grid)
     override fun onBindViewHolder(holder: ChampionViewHolder, position: Int) {
-        // Log so we can see when the bind method is called
-        Log.d("ChampionAdapter", "Binding View $position")
-
-        // Gets the movie data we are going to use at the given position
         val currentChampion = items[position]
-
 
         holder.bind(currentChampion, clickListener)
     }
@@ -38,7 +33,6 @@ class ChampionAdapter(private val items: List<Champion>, private val clickListen
     override fun getItemCount(): Int {
         return items.size
     }
-
 
     class ChampionViewHolder (view: View) : RecyclerView.ViewHolder(view) {
         // Gets a reference to all the specific views we are going to use or fill with data
